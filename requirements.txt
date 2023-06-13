@@ -1,1 +1,12 @@
 google-api-python-client
+PyYAML
+pandas
+scipy
+numpy
+dash
+dash-bootstrap-components
+plotly
+flake8
+seaborn
+sklearn
+opencv-python
