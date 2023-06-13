@@ -5,7 +5,7 @@ with open('./key.yaml', 'r') as yml:
     key_dict = yaml.safe_load(yml)
 
 videoId = '6RLhVKmwraM'
-YOUTUBE_API_KEY = key_dict['api_key']
+YOUTUBE_API_KEY = key_dict['YOUTUBE_API_KEY']
 
 youtube = build('youtube', 'v3', developerKey=YOUTUBE_API_KEY)
 videos_response = youtube.videos().list(
